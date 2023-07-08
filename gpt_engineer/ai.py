@@ -20,7 +20,7 @@ class AI:
                 "to gpt-3.5-turbo. Sign up for the GPT-4 wait list here: "
                 "https://openai.com/waitlist/gpt-4-api"
             )
-            self.model = "gpt-3.5-turbo"
+            self.model = "gpt-3.5-turbo-16k-0613"
 
     def start(self, system, user):
         messages = [
